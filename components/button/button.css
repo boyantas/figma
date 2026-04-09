@@ -1,0 +1,22 @@
+.deep-button {
+  /* Layout from Figma */
+  display: inline-flex;
+  height: 2.75rem;
+  min-width: 3.75rem;
+  padding: 0.625rem 0.75rem; /* Simplified padding */
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  
+  /* Style from Figma */
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background: #2B2B33;
+  color: white; /* Added so you can see the text */
+  font-family: sans-serif;
+}
+
+.deep-button:hover {
+  filter: brightness(1.2);
+}
