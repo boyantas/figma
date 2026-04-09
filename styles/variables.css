@@ -14,3 +14,1289 @@
   --Radius-Small: 0.25rem;
   --Radius-Medium: 0.5rem;
 }
+
+
+	
+version	"1.0.4"
+metadata	{}
+collections	
+0	
+name	"Spacing"
+modes	
+0	
+name	"Mode 1"
+variables	
+0	
+name	"0"
+type	"number"
+isAlias	false
+value	0
+1	
+name	"1"
+type	"number"
+isAlias	false
+value	4
+2	
+name	"2"
+type	"number"
+isAlias	false
+value	8
+3	
+name	"3"
+type	"number"
+isAlias	false
+value	12
+4	
+name	"4"
+type	"number"
+isAlias	false
+value	16
+5	
+name	"5"
+type	"number"
+isAlias	false
+value	20
+6	
+name	"6"
+type	"number"
+isAlias	false
+value	24
+7	
+name	"7"
+type	"number"
+isAlias	false
+value	28
+8	
+name	"8"
+type	"number"
+isAlias	false
+value	32
+9	
+name	"9"
+type	"number"
+isAlias	false
+value	36
+10	
+name	"10"
+type	"number"
+isAlias	false
+value	40
+11	
+name	"11"
+type	"number"
+isAlias	false
+value	44
+12	
+name	"12"
+type	"number"
+isAlias	false
+value	48
+1	
+name	"Radius"
+modes	
+0	
+name	"Mode 1"
+variables	
+0	
+name	"Rounded - 0"
+type	"number"
+isAlias	false
+value	0
+1	
+name	"Rounded - SM"
+type	"number"
+isAlias	false
+value	2
+2	
+name	"Rounded"
+type	"number"
+isAlias	false
+value	4
+3	
+name	"Rounded - LG"
+type	"number"
+isAlias	false
+value	8
+4	
+name	"Rounded - XL"
+type	"number"
+isAlias	false
+value	24
+5	
+name	"Rounded - Pill"
+type	"number"
+isAlias	false
+value	9999
+2	
+name	"Colors"
+modes	
+0	
+name	"Light"
+variables	
+0	
+name	"Black Text"
+type	"color"
+isAlias	false
+value	"#18181B"
+1	
+name	"White text"
+type	"color"
+isAlias	false
+value	"#FAFAFA"
+2	
+name	"Gray (m-emph)"
+type	"color"
+isAlias	false
+value	"#747476"
+3	
+name	"Disabled text"
+type	"color"
+isAlias	false
+value	"#A7A7A8"
+4	
+name	"Link"
+type	"color"
+isAlias	false
+value	"#2463EB"
+5	
+name	"Black (true)"
+type	"color"
+isAlias	false
+value	"#18181B"
+6	
+name	"White (true)"
+type	"color"
+isAlias	false
+value	"#FFFFFF"
+7	
+name	"Surface/Background"
+type	"color"
+isAlias	false
+value	"#FFFFFF"
+8	
+name	"Surface/Surface"
+type	"color"
+isAlias	false
+value	"#FFFFFF"
+9	
+name	"Surface/Surface bright"
+type	"color"
+isAlias	false
+value	"#F4F4F5"
+10	
+name	"Surface/Disabled bg"
+type	"color"
+isAlias	false
+value	"#E4E4E7"
+11	
+name	"Border/Border"
+type	"color"
+isAlias	false
+value	"#A1A1AA"
+12	
+name	"Border/Border (opacity)"
+type	"color"
+isAlias	false
+value	"#D4D4D8"
+13	
+name	"Border/Border (soft)"
+type	"color"
+isAlias	false
+value	"#E4E4E7"
+14	
+name	"States/Hover"
+type	"color"
+isAlias	false
+value	"#F3F3F4"
+15	
+name	"States/Hover (light)"
+type	"color"
+isAlias	false
+value	"#F5F5F5"
+16	
+name	"Scrip/Overlay"
+type	"color"
+isAlias	false
+value	"#09090B99"
+17	
+name	"Communication/Error"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/red-lighten-5"
+18	
+name	"Communication/On Error"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/red-darken-4"
+19	
+name	"Communication/Info"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/light-blue-lighten-5"
+20	
+name	"Communication/On Info"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/light-blue-darken-3"
+21	
+name	"Communication/Warning"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/orange-lighten-5"
+22	
+name	"Communication/On Warning"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/orange-darken-4"
+23	
+name	"Communication/Sucess"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/green-lighten-5"
+24	
+name	"Communication/On Sucess"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/green-darken-3"
+25	
+name	"Palette/gray-darken-2"
+type	"color"
+isAlias	false
+value	"#616161"
+26	
+name	"Brand/Default"
+type	"color"
+isAlias	false
+value	"#2B2B33"
+27	
+name	"Palette/gray-lighten-3"
+type	"color"
+isAlias	false
+value	"#E4E4E7"
+28	
+name	"Palette/red-darken-4"
+type	"color"
+isAlias	false
+value	"#B71C1C"
+29	
+name	"Palette/red-lighten-5"
+type	"color"
+isAlias	false
+value	"#FFEBEE"
+30	
+name	"Palette/orange-darken-4"
+type	"color"
+isAlias	false
+value	"#E65100"
+31	
+name	"Palette/orange-lighten-5"
+type	"color"
+isAlias	false
+value	"#FFF3E0"
+32	
+name	"Palette/yellow-darken-4"
+type	"color"
+isAlias	false
+value	"#F57F17"
+33	
+name	"Palette/yellow-lighten-4"
+type	"color"
+isAlias	false
+value	"#FFF9C4"
+34	
+name	"Palette/green-darken-3"
+type	"color"
+isAlias	false
+value	"#2E7D32"
+35	
+name	"Palette/green-lighten-5"
+type	"color"
+isAlias	false
+value	"#E8F5E9"
+36	
+name	"Palette/teal-darken-3"
+type	"color"
+isAlias	false
+value	"#00695C"
+37	
+name	"Palette/teal-lighten-5"
+type	"color"
+isAlias	false
+value	"#CCFBF1"
+38	
+name	"Palette/cyan-darken-3"
+type	"color"
+isAlias	false
+value	"#00838F"
+39	
+name	"Palette/cyan-lighten-5"
+type	"color"
+isAlias	false
+value	"#E0F7FA"
+40	
+name	"Palette/light-blue-darken-3"
+type	"color"
+isAlias	false
+value	"#0277BD"
+41	
+name	"Palette/light-blue-lighten-5"
+type	"color"
+isAlias	false
+value	"#E1F5FE"
+42	
+name	"Palette/blue-darken-3"
+type	"color"
+isAlias	false
+value	"#1565C0"
+43	
+name	"Palette/blue-lighten-5"
+type	"color"
+isAlias	false
+value	"#E3F2FD"
+44	
+name	"Palette/indigo-darken-2"
+type	"color"
+isAlias	false
+value	"#303F9F"
+45	
+name	"Palette/indigo-lighten-5"
+type	"color"
+isAlias	false
+value	"#E8EAF6"
+46	
+name	"Palette/purple-darken-2"
+type	"color"
+isAlias	false
+value	"#7B1FA2"
+47	
+name	"Palette/purple-lighten-5"
+type	"color"
+isAlias	false
+value	"#F3E5F5"
+48	
+name	"Palette/pink-darken-2"
+type	"color"
+isAlias	false
+value	"#C2185B"
+49	
+name	"Palette/pink-lighten-5"
+type	"color"
+isAlias	false
+value	"#FCE4EC"
+50	
+name	"Brand/Default Light"
+type	"color"
+isAlias	false
+value	"#F3F3F4"
+51	
+name	"Brand/Vuetify"
+type	"color"
+isAlias	false
+value	"#1967C0"
+52	
+name	"Brand/Vuetify Light"
+type	"color"
+isAlias	false
+value	"#EDF3FA"
+53	
+name	"Brand/DeepBox"
+type	"color"
+isAlias	false
+value	"#5F3DC4"
+54	
+name	"Brand/DeepBox Light"
+type	"color"
+isAlias	false
+value	"#EAE4F9"
+55	
+name	"Brand/DeepSign"
+type	"color"
+isAlias	false
+value	"#0051FF"
+56	
+name	"Brand/DeepSign Light"
+type	"color"
+isAlias	false
+value	"#DDE8FF"
+57	
+name	"Brand/DeepV"
+type	"color"
+isAlias	false
+value	"#00AB12"
+58	
+name	"Brand/DeepV Light"
+type	"color"
+isAlias	false
+value	"#E3F8E6"
+59	
+name	"Brand/DeepCloud"
+type	"color"
+isAlias	false
+value	"#FF2800"
+60	
+name	"Brand/DeepCloud Dark"
+type	"color"
+isAlias	false
+value	"#B71C1C"
+61	
+name	"Brand/DeepCloud Light"
+type	"color"
+isAlias	false
+value	"#FADEDE"
+62	
+name	"Brand/DeepO"
+type	"color"
+isAlias	false
+value	"#3300FF"
+63	
+name	"Brand/DeepO Light"
+type	"color"
+isAlias	false
+value	"#F3F0FF"
+64	
+name	"Brand/DeepA"
+type	"color"
+isAlias	false
+value	"#F52C00"
+65	
+name	"Brand/DeepA Light"
+type	"color"
+isAlias	false
+value	"#FFECE8"
+66	
+name	"Brand/DeepFlow"
+type	"color"
+isAlias	false
+value	"#00C3CD"
+67	
+name	"Brand/DeepFlow Light"
+type	"color"
+isAlias	false
+value	"#DFF6F7"
+68	
+name	"Brand/DeepPay"
+type	"color"
+isAlias	false
+value	"#FF8C00"
+69	
+name	"Brand/DeepPay Light"
+type	"color"
+isAlias	false
+value	"#FDF3E7"
+70	
+name	"Brand/DeepNinja"
+type	"color"
+isAlias	false
+value	"#128EF2"
+71	
+name	"Brand/DeepNinja Light"
+type	"color"
+isAlias	false
+value	"#E6F4FF"
+72	
+name	"Brand/DeepInfo"
+type	"color"
+isAlias	false
+value	"#0070E0"
+73	
+name	"Brand/DeepInfo Light"
+type	"color"
+isAlias	false
+value	"#E6F2FE"
+74	
+name	"Brand/DeepMail"
+type	"color"
+isAlias	false
+value	"#FFB400"
+75	
+name	"Brand/DeepMail Light"
+type	"color"
+isAlias	false
+value	"#FDF7E9"
+76	
+name	"Brand/DeepID"
+type	"color"
+isAlias	false
+value	"#FF7800"
+77	
+name	"Brand/DeepID Light"
+type	"color"
+isAlias	false
+value	"#FAF1E6"
+78	
+name	"Brand/Hoop"
+type	"color"
+isAlias	false
+value	"#3553E3"
+79	
+name	"Brand/Hoop Light"
+type	"color"
+isAlias	false
+value	"#EAF3FC"
+80	
+name	"Brand/DeepValidator"
+type	"color"
+isAlias	false
+value	"#41AF00"
+81	
+name	"Brand/DeepValidator Light"
+type	"color"
+isAlias	false
+value	"#EAF6E3"
+82	
+name	"Brand/DeepLaw"
+type	"color"
+isAlias	false
+value	"#C1121F"
+83	
+name	"Brand/DeepLaw Light"
+type	"color"
+isAlias	false
+value	"#FFE8EA"
+84	
+name	"Brand/Law Lite Light 2"
+type	"color"
+isAlias	false
+value	"#FFE8EA"
+85	
+name	"Brand/DeepPortal"
+type	"color"
+isAlias	false
+value	"#255274"
+86	
+name	"Brand/DeepPortal Light"
+type	"color"
+isAlias	false
+value	"#EBF7FF"
+87	
+name	"Brand/DeepTranslate"
+type	"color"
+isAlias	false
+value	"#EA522E"
+88	
+name	"Brand/DeepTranslate Light"
+type	"color"
+isAlias	false
+value	"#FFD7CD"
+1	
+name	"Dark"
+variables	
+0	
+name	"Black Text"
+type	"color"
+isAlias	false
+value	"#F4F4F5"
+1	
+name	"White text"
+type	"color"
+isAlias	false
+value	"#09090B"
+2	
+name	"Gray (m-emph)"
+type	"color"
+isAlias	false
+value	"#B0B0B0"
+3	
+name	"Disabled text"
+type	"color"
+isAlias	false
+value	"#828282"
+4	
+name	"Link"
+type	"color"
+isAlias	false
+value	"#60A5FA"
+5	
+name	"Black (true)"
+type	"color"
+isAlias	false
+value	"#18181B"
+6	
+name	"White (true)"
+type	"color"
+isAlias	false
+value	"#FFFFFF"
+7	
+name	"Surface/Background"
+type	"color"
+isAlias	false
+value	"#101010"
+8	
+name	"Surface/Surface"
+type	"color"
+isAlias	false
+value	"#18181B"
+9	
+name	"Surface/Surface bright"
+type	"color"
+isAlias	false
+value	"#1F1F25"
+10	
+name	"Surface/Disabled bg"
+type	"color"
+isAlias	false
+value	"#27272A"
+11	
+name	"Border/Border"
+type	"color"
+isAlias	false
+value	"#52525B"
+12	
+name	"Border/Border (opacity)"
+type	"color"
+isAlias	false
+value	"#3F3F46"
+13	
+name	"Border/Border (soft)"
+type	"color"
+isAlias	false
+value	"#27272A"
+14	
+name	"States/Hover"
+type	"color"
+isAlias	false
+value	"#1A1A1B"
+15	
+name	"States/Hover (light)"
+type	"color"
+isAlias	false
+value	"#161617"
+16	
+name	"Scrip/Overlay"
+type	"color"
+isAlias	false
+value	"#09090B99"
+17	
+name	"Communication/Error"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/red-lighten-5"
+18	
+name	"Communication/On Error"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/red-darken-4"
+19	
+name	"Communication/Info"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/light-blue-lighten-5"
+20	
+name	"Communication/On Info"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/blue-darken-3"
+21	
+name	"Communication/Warning"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/orange-lighten-5"
+22	
+name	"Communication/On Warning"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/orange-darken-4"
+23	
+name	"Communication/Sucess"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/green-lighten-5"
+24	
+name	"Communication/On Sucess"
+type	"color"
+isAlias	true
+value	
+collection	"Colors"
+name	"Palette/green-darken-3"
+25	
+name	"Palette/gray-darken-2"
+type	"color"
+isAlias	false
+value	"#D4D4D8"
+26	
+name	"Brand/Default"
+type	"color"
+isAlias	false
+value	"#F4F4F5"
+27	
+name	"Palette/gray-lighten-3"
+type	"color"
+isAlias	false
+value	"#3F3F46"
+28	
+name	"Palette/red-darken-4"
+type	"color"
+isAlias	false
+value	"#F87171"
+29	
+name	"Palette/red-lighten-5"
+type	"color"
+isAlias	false
+value	"#450A0A"
+30	
+name	"Palette/orange-darken-4"
+type	"color"
+isAlias	false
+value	"#FB923C"
+31	
+name	"Palette/orange-lighten-5"
+type	"color"
+isAlias	false
+value	"#431407"
+32	
+name	"Palette/yellow-darken-4"
+type	"color"
+isAlias	false
+value	"#FACC15"
+33	
+name	"Palette/yellow-lighten-4"
+type	"color"
+isAlias	false
+value	"#422006"
+34	
+name	"Palette/green-darken-3"
+type	"color"
+isAlias	false
+value	"#4ADE80"
+35	
+name	"Palette/green-lighten-5"
+type	"color"
+isAlias	false
+value	"#052E16"
+36	
+name	"Palette/teal-darken-3"
+type	"color"
+isAlias	false
+value	"#2DD4BF"
+37	
+name	"Palette/teal-lighten-5"
+type	"color"
+isAlias	false
+value	"#042F2E"
+38	
+name	"Palette/cyan-darken-3"
+type	"color"
+isAlias	false
+value	"#22D3EE"
+39	
+name	"Palette/cyan-lighten-5"
+type	"color"
+isAlias	false
+value	"#083344"
+40	
+name	"Palette/light-blue-darken-3"
+type	"color"
+isAlias	false
+value	"#38BDF8"
+41	
+name	"Palette/light-blue-lighten-5"
+type	"color"
+isAlias	false
+value	"#082F49"
+42	
+name	"Palette/blue-darken-3"
+type	"color"
+isAlias	false
+value	"#60A5FA"
+43	
+name	"Palette/blue-lighten-5"
+type	"color"
+isAlias	false
+value	"#172554"
+44	
+name	"Palette/indigo-darken-2"
+type	"color"
+isAlias	false
+value	"#818CF8"
+45	
+name	"Palette/indigo-lighten-5"
+type	"color"
+isAlias	false
+value	"#1E1B4B"
+46	
+name	"Palette/purple-darken-2"
+type	"color"
+isAlias	false
+value	"#C084FC"
+47	
+name	"Palette/purple-lighten-5"
+type	"color"
+isAlias	false
+value	"#3B0764"
+48	
+name	"Palette/pink-darken-2"
+type	"color"
+isAlias	false
+value	"#FB7185"
+49	
+name	"Palette/pink-lighten-5"
+type	"color"
+isAlias	false
+value	"#4C0519"
+50	
+name	"Brand/Default Light"
+type	"color"
+isAlias	false
+value	"#1A1A1B"
+51	
+name	"Brand/Vuetify"
+type	"color"
+isAlias	false
+value	"#2196F3"
+52	
+name	"Brand/Vuetify Light"
+type	"color"
+isAlias	false
+value	"#143249"
+53	
+name	"Brand/DeepBox"
+type	"color"
+isAlias	false
+value	"#8C68F6"
+54	
+name	"Brand/DeepBox Light"
+type	"color"
+isAlias	false
+value	"#2F264A"
+55	
+name	"Brand/DeepSign"
+type	"color"
+isAlias	false
+value	"#4681FF"
+56	
+name	"Brand/DeepSign Light"
+type	"color"
+isAlias	false
+value	"#19294C"
+57	
+name	"Brand/DeepV"
+type	"color"
+isAlias	false
+value	"#27A034"
+58	
+name	"Brand/DeepV Light"
+type	"color"
+isAlias	false
+value	"#1A471F"
+59	
+name	"Brand/DeepCloud"
+type	"color"
+isAlias	false
+value	"#E93434"
+60	
+name	"Brand/DeepCloud Dark"
+type	"color"
+isAlias	false
+value	"#B71C1C"
+61	
+name	"Brand/DeepCloud Light"
+type	"color"
+isAlias	false
+value	"#431616"
+62	
+name	"Brand/DeepO"
+type	"color"
+isAlias	false
+value	"#643DFD"
+63	
+name	"Brand/DeepO Light"
+type	"color"
+isAlias	false
+value	"#2B1F5B"
+64	
+name	"Brand/DeepA"
+type	"color"
+isAlias	false
+value	"#F05B3A"
+65	
+name	"Brand/DeepA Light"
+type	"color"
+isAlias	false
+value	"#693125"
+66	
+name	"Brand/DeepFlow"
+type	"color"
+isAlias	false
+value	"#3DC2C9"
+67	
+name	"Brand/DeepFlow Light"
+type	"color"
+isAlias	false
+value	"#1D5558"
+68	
+name	"Brand/DeepPay"
+type	"color"
+isAlias	false
+value	"#F19A31"
+69	
+name	"Brand/DeepPay Light"
+type	"color"
+isAlias	false
+value	"#5D401E"
+70	
+name	"Brand/DeepNinja"
+type	"color"
+isAlias	false
+value	"#2990E3"
+71	
+name	"Brand/DeepNinja Light"
+type	"color"
+isAlias	false
+value	"#1E405B"
+72	
+name	"Brand/DeepInfo"
+type	"color"
+isAlias	false
+value	"#3692EF"
+73	
+name	"Brand/DeepInfo Light"
+type	"color"
+isAlias	false
+value	"#1F3D5C"
+74	
+name	"Brand/DeepMail"
+type	"color"
+isAlias	false
+value	"#EAB22D"
+75	
+name	"Brand/DeepMail Light"
+type	"color"
+isAlias	false
+value	"#51411B"
+76	
+name	"Brand/DeepID"
+type	"color"
+isAlias	false
+value	"#FC9335"
+77	
+name	"Brand/DeepID Light"
+type	"color"
+isAlias	false
+value	"#50351D"
+78	
+name	"Brand/Hoop"
+type	"color"
+isAlias	false
+value	"#4E6BF5"
+79	
+name	"Brand/Hoop Light"
+type	"color"
+isAlias	false
+value	"#1A234E"
+80	
+name	"Brand/DeepValidator"
+type	"color"
+isAlias	false
+value	"#00B706"
+81	
+name	"Brand/DeepValidator Light"
+type	"color"
+isAlias	false
+value	"#164817"
+82	
+name	"Brand/DeepLaw"
+type	"color"
+isAlias	false
+value	"#DB4652"
+83	
+name	"Brand/DeepLaw Light"
+type	"color"
+isAlias	false
+value	"#462022"
+84	
+name	"Brand/Law Lite Light 2"
+type	"color"
+isAlias	false
+value	"#462022"
+85	
+name	"Brand/DeepPortal"
+type	"color"
+isAlias	false
+value	"#3A719A"
+86	
+name	"Brand/DeepPortal Light"
+type	"color"
+isAlias	false
+value	"#405361"
+87	
+name	"Brand/DeepTranslate"
+type	"color"
+isAlias	false
+value	"#EE6646"
+88	
+name	"Brand/DeepTranslate Light"
+type	"color"
+isAlias	false
+value	"#582518"
+3	
+name	"Typography"
+modes	
+0	
+name	"Style"
+variables	
+0	
+name	"DeepUI/H1"
+type	"typography"
+isAlias	false
+value	
+fontSize	96
+fontFamily	"Inter"
+fontWeight	"SemiBold"
+lineHeight	100
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+1	
+name	"DeepUI/H2"
+type	"typography"
+isAlias	false
+value	
+fontSize	60
+fontFamily	"Inter"
+fontWeight	"SemiBold"
+lineHeight	64
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+2	
+name	"DeepUI/H3"
+type	"typography"
+isAlias	false
+value	
+fontSize	48
+fontFamily	"Inter"
+fontWeight	"SemiBold"
+lineHeight	50
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+3	
+name	"DeepUI/H4"
+type	"typography"
+isAlias	false
+value	
+fontSize	34
+fontFamily	"Inter"
+fontWeight	"SemiBold"
+lineHeight	38
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+4	
+name	"DeepUI/H5"
+type	"typography"
+isAlias	false
+value	
+fontSize	24
+fontFamily	"Inter"
+fontWeight	"SemiBold"
+lineHeight	26
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+5	
+name	"DeepUI/H6"
+type	"typography"
+isAlias	false
+value	
+fontSize	20
+fontFamily	"Inter"
+fontWeight	"SemiBold"
+lineHeight	28
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+6	
+name	"DeepUI/Subtitle 1"
+type	"typography"
+isAlias	false
+value	
+fontSize	16
+fontFamily	"Inter"
+fontWeight	"SemiBold"
+lineHeight	22.399999618530273
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+7	
+name	"DeepUI/Subtitle 2"
+type	"typography"
+isAlias	false
+value	
+fontSize	14
+fontFamily	"Inter"
+fontWeight	"Semi Bold"
+lineHeight	20
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+8	
+name	"DeepUI/Body 1"
+type	"typography"
+isAlias	false
+value	
+fontSize	16
+fontFamily	"Inter"
+fontWeight	"Regular"
+lineHeight	22.399999618530273
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+9	
+name	"DeepUI/Body 2"
+type	"typography"
+isAlias	false
+value	
+fontSize	14
+fontFamily	"Inter"
+fontWeight	"Regular"
+lineHeight	20
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+10	
+name	"DeepUI/Button"
+type	"typography"
+isAlias	false
+value	
+fontSize	14
+fontFamily	"Inter"
+fontWeight	"Regular"
+lineHeight	16
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+11	
+name	"DeepUI/Caption"
+type	"typography"
+isAlias	false
+value	
+fontSize	12
+fontFamily	"Inter"
+fontWeight	"Regular"
+lineHeight	16
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+12	
+name	"DeepUI/Overline"
+type	"typography"
+isAlias	false
+value	
+fontSize	12
+fontFamily	"Inter"
+fontWeight	"Medium"
+lineHeight	16
+lineHeightUnit	"PIXELS"
+letterSpacing	0
+letterSpacingUnit	"PERCENT"
+textCase	"ORIGINAL"
+textDecoration	"NONE"
+4	
+name	"Effects"
+modes	
+0	
+name	"Style"
+variables	
+0	
+name	"DeepUI/Elevation 2"
+type	"effect"
+isAlias	false
+value	
+effects	(3)[ {…}, {…}, {…} ]
+1	
+name	"DeepUI/Elevation 4"
+type	"effect"
+isAlias	false
+value	
+effects	(3)[ {…}, {…}, {…} ]
+2	
+name	"DeepUI/Elevation 8"
+type	"effect"
+isAlias	false
+value	
+effects	(3)[ {…}, {…}, {…} ]
+3	
+name	"DeepUI/Elevation 12"
+type	"effect"
+isAlias	false
+value	
+effects	(3)[ {…}, {…}, {…} ]
+4	
+name	"DeepUI/Elevation 18"
+type	"effect"
+isAlias	false
+value	
+effects	(3)[ {…}, {…}, {…} ]
+5	
+name	"DeepUI/Elevation 24"
+type	"effect"
+isAlias	false
+value	
+effects	(3)[ {…}, {…}, {…} ]
+6	
+name	"DeepUI/Elevation Small"
+type	"effect"
+isAlias	false
+value	
+effects	[ {…} ]
+7	
+name	"DeepUI/Elevation Large"
+type	"effect"
+isAlias	false
+value	
+effects	[ {…} ]
