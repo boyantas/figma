@@ -1,39 +1,9 @@
-/* Base style for the button */
-.deep-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-family: sans-serif;
-  transition: all 0.2s;
-}
+/* ... keep your primary and secondary styles ... */
 
-/* Variant: Primary */
-.deep-button.primary {
-  background-color: #1a1a1a;
-  color: white;
-  border: none;
-}
-
-/* Variant: Secondary */
-.deep-button.secondary {
-  background-color: #ffffff;
-  color: #1a1a1a;
-  border: 1px solid #e2e2e2;
-}
-
-/* Size: XLarge (44px as seen in your Figma) */
-.deep-button.xlarge {
-  height: 44px;
-  padding: 0 24px;
-  font-size: 16px;
-}
-
-/* Size: Medium */
-.deep-button.medium {
-  height: 36px;
-  padding: 0 16px;
-  font-size: 14px;
+/* Variant: Disabled */
+.deep-button.disabled {
+  background-color: #f5f5f5; /* Light gray background */
+  color: #bfbfbf;            /* Faded gray text */
+  border: 1px solid #d9d9d9;
+  cursor: not-allowed;       /* Shows a 'blocked' icon on hover */
 }
