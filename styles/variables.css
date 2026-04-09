@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --Brand-Default: #2B2B33;
+  --Brand-White: #FFFFFF;
+  --Brand-Disabled: #D1D1D1;
+
+  /* Spacing */
+  --Spacing-1: 0.25rem;
+  --Spacing-2: 0.5rem;
+  --Spacing-3: 0.75rem;
+  --Spacing-4: 1rem;
+
+  /* Border Radius */
+  --Radius-Small: 0.25rem;
+  --Radius-Medium: 0.5rem;
+}
