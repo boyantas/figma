@@ -3,20 +3,22 @@ import './button.css';
 
 export const DeepButton = ({ 
   label = "Button", 
-  variant = "Secondary", // Matches your Figma 'Variant'
-  size = "XLarge",       // Matches your Figma 'Size'
-  iconPrepend = false, 
-  iconAppend = false,
+  variant = "Primary", 
+  size = "XLarge",
   onClick 
 }) => {
-  // This builds a name like: "deep-button secondary xlarge"
+  // Check if the variant is 'Disabled'
+  const isDisabled = variant.toLowerCase() === 'disabled';
+  
   const classes = `deep-button ${variant.toLowerCase()} ${size.toLowerCase()}`;
 
   return (
-    <button className={classes} onClick={onClick}>
-      {iconPrepend && <span className="icon-slot">★</span>}
+    <button 
+      className={classes} 
+      onClick={isDisabled ? null : onClick} // If disabled, do nothing on click
+      disabled={isDisabled}                // Tells the browser it's off
+    >
       <span className="button-text">{label}</span>
-      {iconAppend && <span className="icon-slot">★</span>}
     </button>
   );
 };
