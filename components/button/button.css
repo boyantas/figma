@@ -1,21 +1,39 @@
-/* Import the variables so this file can see them */
-@import '../../styles/variables.css';
-
+/* Base style for the button */
 .deep-button {
   display: inline-flex;
-  height: 2.75rem;
-  min-width: 3.75rem;
-  
-  /* Use the variables from your screenshot! */
-  padding: 0.625rem var(--Spacing-3); 
-  gap: var(--Spacing-1);
-  border-radius: var(--Radius-Small);
-  background: var(--Brand-Default);
-  
-  /* Other styles */
-  color: var(--Brand-White);
-  border: none;
-  cursor: pointer;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: all 0.2s;
+}
+
+/* Variant: Primary */
+.deep-button.primary {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+}
+
+/* Variant: Secondary */
+.deep-button.secondary {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #e2e2e2;
+}
+
+/* Size: XLarge (44px as seen in your Figma) */
+.deep-button.xlarge {
+  height: 44px;
+  padding: 0 24px;
+  font-size: 16px;
+}
+
+/* Size: Medium */
+.deep-button.medium {
+  height: 36px;
+  padding: 0 16px;
+  font-size: 14px;
 }
